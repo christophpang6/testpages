@@ -1,5 +1,10 @@
 ## Welcome to GitHub Pages
 
+{% capture includeGuts %}
+{% include ny_sample12-7.html %} 
+{% endcapture %}
+{{ includeGuts | replace: '    ', ''}}
+
 You can use the [editor on GitHub](https://github.com/christophpang6/testpages/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
